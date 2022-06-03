@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "ch03_array/array/src",
+        "ch02_Variables/src/com/java/ch02",
+        "ch01_HelloWorld/src",
+        "Java TPC/src"
+    ]
+}
