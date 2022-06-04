@@ -8,7 +8,7 @@ public class TPC05 {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
-        // System.out.println(sum);
+        System.out.println(sum);
 
         Random rand = new Random();
         int[][] b = new int[3][3]; // 가변배열은 new int[3][]
