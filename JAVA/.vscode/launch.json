@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TPC11",
+            "request": "launch",
+            "mainClass": "TPC11",
+            "projectName": "JAVA_4978a4b"
+        },
+        {
+            "type": "java",
             "name": "Launch Array",
             "request": "launch",
             "mainClass": "Array",

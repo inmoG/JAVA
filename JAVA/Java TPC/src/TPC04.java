@@ -1,4 +1,4 @@
-public class TCP04 {
+public class TPC04 {
     public static void main(String[] args) {
         int a, b, c;
         a = 10;
