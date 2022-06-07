@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "hongong_JAVA/src",
         "Java TPC/src",
-        "hongong_JAVA/src"
+        "JAVA_Study/JAVA/src"
     ]
 }
