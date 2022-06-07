@@ -11,4 +11,11 @@ public class BookDTO {
         // 객체 생성 작업
         super();
     }
+
+    public BookDTO(String title, int price, String company, int page) {
+        this.title = title;
+        this.price = price;
+        this.company = company;
+        this.page = page;
+    }
 }
