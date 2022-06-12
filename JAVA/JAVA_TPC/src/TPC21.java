@@ -19,9 +19,14 @@ public class TPC21 {
 
         ani = new Cat();
         // 상속 관계이므로 자동 형변환(object casting)이 된다
-        ani.eat();
+        ani.eat(); // 컴ㅍㅏ일시점 >> animal 실행시점 > Dog
 
         // ani.night();
         ((Cat) ani).night(); // downcasting(강제 형변환)
+        // 상위클래스가 하위클래스에게 동일한 메세지로 서로 다르게 동작시키는 원리
+
+        Object o = new Dog();
+        // o.eat
+        ((Dog) o).eat(); // downcasting
     }
 }
