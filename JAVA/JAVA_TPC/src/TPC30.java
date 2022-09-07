@@ -11,7 +11,7 @@ public class TPC30 {
     private static void display(Object o) // 다형성 인수
     {
         if (o instanceof A) {
-            ((A) o).go(); // dwonCasting
+            ((A) o).go(); // dwonCastinge
         } else {
             ((B) o).go();
         }
