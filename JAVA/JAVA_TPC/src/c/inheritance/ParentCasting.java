@@ -1,8 +1,12 @@
 package c.inheritance;
 
-public class Parent {
-    public Parent() {
-    System.out.println("Parent Constructor");
+public class ParentCasting {
+    public ParentCasting() {
+
+    }
+
+    public ParentCasting(String name) {
+
     }
 
     public void printName() {
