@@ -4,6 +4,7 @@ public class Dog extends Animal {
 
     public Dog() {
         super("멍멍이", "개", 4, false);
+
         System.out.println("강아지가 태어났습니다.");
     }
 
