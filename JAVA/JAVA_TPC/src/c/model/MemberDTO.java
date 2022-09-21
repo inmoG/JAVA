@@ -33,6 +33,11 @@ public class MemberDTO {
     }
 
     @Override
+    public String toString() {
+        return "MemberDTO [age=" + age + ", email=" + email + ", name=" + name + ", phone=" + phone + "]";
+    }
+
+    @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
