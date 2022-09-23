@@ -73,5 +73,4 @@ public class MemberDTO {
         // 모든 조건을 거쳐서 false를 리턴하지 않은 객체는 같은 값을 가지는 객체로 생각해서 true를 리턴한다.
         return true;
     }
-
 }
