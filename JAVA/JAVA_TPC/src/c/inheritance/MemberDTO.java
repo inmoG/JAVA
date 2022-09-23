@@ -52,6 +52,7 @@ public class MemberDTO {
         if (getClass() != obj.getClass())
             return false; // class 종류가 다르므로 false
         MemberDTO other = (MemberDTO) obj; // 같은 클래스이므로 형 변환 실행
+        // 각 인스턴스 변수가 같은지 비교 작업
         if (age != other.age)
             return false; // age가 다르므로 false
         if (email == null) { // name과 같은 비교 수행
