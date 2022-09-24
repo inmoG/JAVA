@@ -29,7 +29,8 @@ public class Member {
                 return false;
         } else if (!name.equals(other.name)) // 두 개의 anme이 다르면 false
             return false;
-        return true; // 모든 조건을 거쳐서 false를 리턴하지 않은 객체는 값은 값 즉, 동등성을 가지고 있다 판단해 true를 리턴한다.
+        return true;
+        // 모든 조건을 거쳐서 false를 리턴하지 않은 객체는 값은 값 즉, 동등성을 가지고 있다 판단해 true를 .
     }
 
 }

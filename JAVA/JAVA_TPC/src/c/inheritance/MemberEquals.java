@@ -21,12 +21,10 @@ public class MemberEquals {
     public void equalMethod2() {
         Member member = new Member("inmo");
         Member member2 = new Member("inmo");
-
         if (member.equals(member2)) {
-            // 동일성 비교 >> 객체의 주소값 비교
-            System.out.println("member and member2 is same");
             System.out.println(member.hashCode());
             System.out.println(member2.hashCode());
+            System.out.println("member and member2 is same");
 
         } else {
             System.out.println("member and member2 is different");
