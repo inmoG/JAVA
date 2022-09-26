@@ -13,7 +13,8 @@ public class Main {
         System.out.println(p1.equals(p2)); // true
         System.out.println(people.size()); // 1
         System.out.println(p1.hashCode()); // 3237286
-        System.out.println(p2.hashCode()); // 3237286
+        System.out.println(p2.hashCode()); // 323728
+        6
 
     }
 }
