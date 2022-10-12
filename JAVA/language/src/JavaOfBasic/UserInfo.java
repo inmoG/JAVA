@@ -3,6 +3,7 @@ package JavaOfBasic;
 public class UserInfo implements java.io.Serializable {
     String name;
     String password;
+    // transient String password; transient : 직렬화 대상에서 제외시키고 기본값으로 직렬화한다.
     int age;
 
     public UserInfo() {
