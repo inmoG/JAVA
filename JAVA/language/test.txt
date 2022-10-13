@@ -1,1 +1,0 @@
-Hello by System.out
