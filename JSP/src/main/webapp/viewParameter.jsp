@@ -49,6 +49,13 @@
     name = <%= nameParam[0] %>
     <%
     }
-    %> 
+    %>
+
+    <%
+        response.setHeader("Cache-Control", "no-cache");
+        response.addHeader("Cache-Control", "no-store");
+        response.setHeader("Pragma", "No-cache");
+        response.setDateHeader("Expires", 1L);
+    %>
 </body>
 </html>
