@@ -7,10 +7,21 @@
 </head>
 
 <body>
+<%--
+주석
 <%
     String bookTitle="JSP프로그래밍";
     String author="양인모";
 %>
-<b><%= bookTitle %></b>(<%= author %>)입니다.
+--%>
+<%
+    String bookTitle = "JSP프로그래밍";
+%>
+<!
+    소스코드가 보이는 주석
+    String book="Spring";
+!>
+
+<%= bookTitle %>
 </body>
 </html>
