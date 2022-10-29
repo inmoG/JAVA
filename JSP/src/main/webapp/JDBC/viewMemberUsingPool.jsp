@@ -4,6 +4,7 @@
 <%@ page import = "java.sql.Statement" %>
 <%@ page import = "java.sql.ResultSet" %>
 <%@ page import = "java.sql.SQLException" %>
+<%@ page import = "javax.sql.DataSource" %>
 <html>
 <head><title>회원 목록</title></head>
 <body>
@@ -21,7 +22,7 @@ MEMBER 테이블의 내용
 
 	try {
 		String jdbcDriver = "jdbc:apache:commons:dbcp:JSP";
-		String query = "select * from MEMBER_TABLE order by NAME";
+		String query = "select 1";
 		conn = DriverManager.getConnection(jdbcDriver);
 		stmt = conn.createStatement();
 		rs = stmt.executeQuery(query);
