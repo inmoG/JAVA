@@ -1,4 +1,4 @@
-package mvc;
+package mvc.example;
 
 import java.io.IOException;
 
@@ -43,7 +43,7 @@ public class SimpleController extends HttpServlet {
         // 4단계, request나 session에 처리 결과를 저장
         request.setAttribute("result", resultObject);
         // 5단계, RequestDispatcher를 사용하여 알맞은 뷰로 포워딩
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/simpleView.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/simpleView.jsp");
         dispatcher.forward(request, response);
     }
 }

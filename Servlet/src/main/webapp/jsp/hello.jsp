@@ -3,7 +3,7 @@
 <head><title>Hello</title></head>
 <body>
 
-<%= request.getAttribute("hello") %>
+<%= ${"hello"} %>
 
 </body>
 </html>

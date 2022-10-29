@@ -7,5 +7,6 @@
 </head>
 
 <body>
+게시판 리스트입니다.
 </body>
 </html>

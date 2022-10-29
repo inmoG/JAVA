@@ -3,9 +3,12 @@
 <html>
 <head>
     <meta charset=UTF-8">
-    <title>Insert title here</title>
+    <title>filter</title>
 </head>
 
 <body>
+id 파라미터 : <%= request.getParameter("id") %> <br>
+name 파라미터 : <%= request.getParameter("name") %> <br>
+member 파라미터 : <%= request.getParameter("member") %> <br>
 </body>
 </html>

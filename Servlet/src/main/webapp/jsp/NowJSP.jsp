@@ -3,9 +3,11 @@
 <html>
 <head>
     <meta charset=UTF-8">
-    <title>Insert title here</title>
+    <title>현재 시간</title>
 </head>
 
 <body>
+
+현재 시간은 <%= new java.util.Date() %> 입니다.
 </body>
 </html>
