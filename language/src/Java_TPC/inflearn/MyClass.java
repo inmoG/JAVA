@@ -1,4 +1,4 @@
-package inflearn;
+package Java_TPC.inflearn;
 
 //default
 public class MyClass {

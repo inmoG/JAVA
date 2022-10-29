@@ -1,4 +1,5 @@
-import c.model.MemberDTO;
+package Java_TPC;
+
 
 public class Member {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class TPC04 {
     public static void main(String[] args) {
         int a, b, c;

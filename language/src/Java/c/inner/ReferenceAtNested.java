@@ -1,7 +1,7 @@
 package Java.c.inner;
 
 public class ReferenceAtNested {
-    static class StaticNested(){
+    static class StaticNested{
         private int StaticNestedInt = 99;
     }
 

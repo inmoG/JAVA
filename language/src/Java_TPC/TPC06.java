@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class TPC06 {
     public static void main(String[] main) {
         int a = 67;

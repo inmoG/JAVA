@@ -1,5 +1,4 @@
-import GodOf.book.Book;
-import GodOf.book.Person;
+package Java_TPC;
 
 public class TPC01 {
     public static void main(String[] args) {

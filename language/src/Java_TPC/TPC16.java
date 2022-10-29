@@ -1,6 +1,5 @@
-import javax.sound.sampled.SourceDataLine;
+package Java_TPC;
 
-import kr.tpc.MemberVO;
 
 public class TPC16 {
     public static void main(String[] args) {

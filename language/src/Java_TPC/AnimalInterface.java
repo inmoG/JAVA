@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public interface AnimalInterface {
     String eat = "냠냠";
 

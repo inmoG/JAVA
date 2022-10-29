@@ -1,4 +1,4 @@
-import kr.tpc.MemberVO;
+package Java_TPC;
 
 public class TPC15 {
     public static void main(String[] args) {

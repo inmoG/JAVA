@@ -1,3 +1,5 @@
+package Inflearn;
+
 public class method_13 {
     public static void main(String[] args) {
         FarmMachine machine = new FarmMachine();

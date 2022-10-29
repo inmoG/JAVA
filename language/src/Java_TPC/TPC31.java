@@ -1,4 +1,7 @@
-import kr.tpc.*;
+package Java_TPC;
+
+import Java.kr.tpc.A;
+import Java.kr.tpc.B;
 
 public class TPC31 {
     public static void main(String[] args) {

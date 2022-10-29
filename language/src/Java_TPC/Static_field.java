@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class Static_field {
     static double pi = 3.14159;
 

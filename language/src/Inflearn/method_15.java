@@ -1,3 +1,5 @@
+package Inflearn;
+
 public class method_15 {
     public static void main(String[] args) {
         Person a = new Person(20, "홍길동");

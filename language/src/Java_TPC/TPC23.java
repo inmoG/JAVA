@@ -1,6 +1,5 @@
-import kr.tpc.Animal;
-import kr.tpc.Cat;
-import kr.tpc.Dog;
+package Java_TPC;
+
 
 public class TPC23 {
     public static void main(String[] args) {

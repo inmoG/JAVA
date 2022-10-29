@@ -1,4 +1,4 @@
-import kr.tpc.*;
+package Java_TPC;
 
 public class TPC24 {
     public static void main(String[] args) {

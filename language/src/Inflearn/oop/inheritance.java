@@ -1,4 +1,4 @@
-package oop;
+package Inflearn.oop;
 
 public class inheritance {
     protected void method() {

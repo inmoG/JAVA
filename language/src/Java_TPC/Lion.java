@@ -1,3 +1,6 @@
+package Java_TPC;
+
+
 public class Lion implements AnimalInterface {
 
     @Override

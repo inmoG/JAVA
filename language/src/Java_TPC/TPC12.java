@@ -1,4 +1,4 @@
-import kr.tpc.BookVO;
+package Java_TPC;
 
 public class TPC12 {
     public static void main(String[] args) {

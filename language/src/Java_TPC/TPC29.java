@@ -1,4 +1,6 @@
-import kr.poly.A;
+package Java_TPC;
+
+import Java.kr.poly.A;
 
 public class TPC29 {
     public static void main(String[] args) {

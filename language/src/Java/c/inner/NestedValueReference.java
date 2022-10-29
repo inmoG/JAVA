@@ -9,7 +9,7 @@ public class NestedValueReference {
     private int privateInt = 3;
     static int staticInt = 4;
 
-    static class StaticNested(){
+    static class StaticNested{
 
         public void setValue() {
             staticInt = 14;

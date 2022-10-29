@@ -1,6 +1,6 @@
-import kr.tpc.DBconnect;
-import kr.tpc.JavaMysql;
-import kr.tpc.JavaOracle;
+package Java_TPC;
+
+import Java.kr.tpc.JavaMysql;
 
 public class TPC28 {
     public static void main(String[] args) {

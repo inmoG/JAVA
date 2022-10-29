@@ -1,4 +1,4 @@
-import kr.poly.construc;
+package Java_TPC;
 
 public class main_construc {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package Java.c;
 
-private class ModifierClass {
+class ModifierClass {
+    // private 접근 제어자는 클래스에 붙일 수 없다.
     String name;
 
     public ModifierClass() {

@@ -1,4 +1,5 @@
-import java.util.Random;
+package Java_TPC;
+
 
 public class TPC05 {
     public static void main(String[] main) {

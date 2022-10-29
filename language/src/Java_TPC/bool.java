@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class bool {
     public static void main(String[] args) {
         boolean v[] = new boolean[2];

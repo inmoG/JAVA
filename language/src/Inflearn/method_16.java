@@ -1,4 +1,5 @@
-import oop.inheritance;
+package Inflearn;
+import Inflearn.oop.*;
 
 class Parent {
     int gender;
@@ -37,7 +38,7 @@ class Child extends Parent {
     }
 }
 
-class oop extends inheritance {
+class inheritance_child extends inheritance {
     public void method2() {
         super.method();
     }

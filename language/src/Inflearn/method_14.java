@@ -1,3 +1,4 @@
+package Inflearn;
 
 public class method_14 {
     public static void main(String[] args) {

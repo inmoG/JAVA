@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class TPC08 {
     public static void main(String[] args) {
         int a = 30;

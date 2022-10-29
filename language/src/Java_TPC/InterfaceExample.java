@@ -1,6 +1,4 @@
-import c.model.MemberDTO;
-import c.service.MemberManager;
-import c.service.MemberManagerImpl;
+package Java_TPC;
 
 public class InterfaceExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package inflearn;
+package Java_TPC.inflearn;
 
 public class ObjectArray {
     private int count;

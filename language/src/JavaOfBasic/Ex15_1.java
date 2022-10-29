@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Arrays;
-import JavaBasic;
+import JavaOfBasic.*;
 
 class Ex15_1 {
 	public static void main(String[] args) {

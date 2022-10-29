@@ -1,3 +1,5 @@
+package Java_TPC;
+
 public class ArrayNewFor {
     public static void main(String[] args) {
         ArrayNewFor array = new ArrayNewFor();

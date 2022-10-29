@@ -1,6 +1,4 @@
-import kr.tpc.Animal;
-import kr.tpc.Cat;
-import kr.tpc.Dog;
+package Java_TPC;
 
 public class TPC20 {
     // Dog, Cat >> Animal

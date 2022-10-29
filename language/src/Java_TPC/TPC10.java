@@ -1,4 +1,4 @@
-import kr.tpc.BookDTO;
+package Java_TPC;
 
 public class TPC10 {
     public static void main(String[] args) {

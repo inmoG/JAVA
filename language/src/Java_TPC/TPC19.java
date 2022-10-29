@@ -1,7 +1,5 @@
-import com.google.gson.Gson;
+package Java_TPC;
 
-import kr.tpc.BookVO;
-import kr.tpc.MyUtil;
 
 // import java.lang.*; // default package (생략)
 
