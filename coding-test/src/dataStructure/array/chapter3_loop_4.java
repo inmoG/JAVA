@@ -7,6 +7,7 @@ public class chapter3_loop_4 {
         Random random = new Random();
         final int ARRAY_LENGTH = 10;
         int[] result = new int[ARRAY_LENGTH];
+        boolean isPrimeNumber = true;
 
         for (int i = 0; i < ARRAY_LENGTH; i++) {
             // 소수는 자기 자신과 1만 존재하는 수.
@@ -19,7 +20,14 @@ public class chapter3_loop_4 {
                 continue; // Num이 2라면 Num % 2 != 0 계산식에 접근하지 못하게 continue를 사용한다.
             }
 
-            if (Num % 2 != 0) {
+            for (int j = 2; j < Num; j++) {
+                if (Num % j == 0) {
+                    isPrimeNumber = false;
+                    break;
+                }
+            }
+
+            if(isPrimeNumber){
                 result[i] = Num;
             }
         }
